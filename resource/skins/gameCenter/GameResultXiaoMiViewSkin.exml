@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameResultXiaoMiViewSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" states="win,lose">
+    <w:Config id="162b2f86e82"></w:Config>
+    <e:Image id="contentImage" source="mask_bg_png" top="0" bottom="0" horizontalCenter="0" alpha="0.8"
+             touchEnabled="true"  visible="false"/>
+    <e:Group id="contentGroup" width="600" height="523" horizontalCenter="0" verticalCenter="38.5" anchorOffsetY="0" visible="false">
+        <e:Group id="group" width="600" height="533" horizontalCenter="0" verticalCenter="1.5" anchorOffsetY="0" visible="false"></e:Group>
+        <e:Image source="sl_png" x="121" y="-121" source.lose="sb_png" y.lose="-121" x.lose="118" y.win="-121"
+                 x.win="121"  visible="false"/>
+    </e:Group>
+    <e:Group id="menuUI" width="640" height="60" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"
+             verticalCenter="408" visible="false">
+        <e:Group id="playagainGroup" width="140" height="60" x="153" y="0"  visible="false">
+					<e:Image id="playagain" width="140" height="60" x="0" y="0" source="s9_btn_jpg" scale9Grid="6,6,36,36" scaleX="1" scaleY="1" alpha="0" visible="false"/>
+					<e:Label text="" textColor="0x000000" size="26" fontFamily="Microsoft YaHei" touchEnabled="false" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" width="140" height="60" textAlign="center" verticalAlign="middle" visible="false"/>
+				</e:Group>
+        <e:Group id="shareGroup" width="140" height="60" x="363" y="0" visible="false">
+            <e:Image id="share" width="140" height="60" x="0" y="0" source="s9_btn_jpg" scale9Grid="6,6,36,36"
+                     scaleX="1" scaleY="1"  alpha="0" visible="false"/>
+            <e:Label id="share_label" text="保存桌面" textColor="0x000000" size="26" fontFamily="Microsoft YaHei"
+                     anchorOffsetX="0" width="140" scaleX="1" scaleY="1" verticalCenter="0"  horizontalCenter="0" height="60" verticalAlign="middle" textAlign="center" visible="false"/>
+        </e:Group>
+    </e:Group>
+</e:Skin>

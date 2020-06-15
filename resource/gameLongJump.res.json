@@ -1,0 +1,490 @@
+{
+	"groups": [
+		{
+			"keys": "longJump_max_shadow_png,longJump_max_t1_png,longJump_max_u1_png,longJump_max_w1_png,longJump_max_y1_png,longJump_number_fnt,longJump_ready_png,longJump_TimeBG_png,longJump_winLight_png,LongJumpBG_png,readyGoTitle_png,red_png,way_png,fallintowater_json,fallintowater_png,green_png,headBg_png,headBg_green_png,headBg_red_png,Jumpa1_png,Jumpa3_png,Jumpe1_png,Jumpe3_png,Jumpg1_png,Jumpg3_png,Jumph1_png,Jumph3_png,Jumpi1_png,Jumpi3_png,Jumpj1_png,Jumpj3_png,Jumpk1_png,Jumpk3_png,Jumpl1_png,Jumpl3_png,Jumpm1_png,Jumpm3_png,Jumpo1_png,Jumpo3_png,Jumpq1_png,Jumpq3_png,Jumpt1_png,Jumpt3_png,Jumpw1_png,Jumpw3_png,Jumpz1_png,Jumpz3_png,longJump_blackMask_png,longJump_go_png,longJump_max_e1_png,longJump_max_r1_png,longJump_jumplight_png,bj5_png,bj1_png,bj2_png,bj3_png,bj4_png,longJump_jumpLightPower_png,longJump_tip_png,RandomConfig_json,bo_ske_json,bo_tex_json,bo_tex_png,floatScore_ske_json,floatScore_tex_json,floatScore_tex_png,wa1_ske_json,wa1_tex_json,wa1_tex_png,xuli1_json,xuli1_png,xuli2_json,xuli2_png,Fang_1_ske_json,Fang_1_tex_json,Fang_1_tex_png,winGreen_png,winRed_png,winTag_png,loseGreen_png,loseRed_png,countDown_mp3",
+			"name": "game_LongJump"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/games/game_LongJump/way.png",
+			"type": "image",
+			"name": "way_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/LongJumpBG.png",
+			"type": "image",
+			"name": "LongJumpBG_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpg1.png",
+			"type": "image",
+			"name": "Jumpg1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpg3.png",
+			"type": "image",
+			"name": "Jumpg3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumph1.png",
+			"type": "image",
+			"name": "Jumph1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpk1.png",
+			"type": "image",
+			"name": "Jumpk1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpk3.png",
+			"type": "image",
+			"name": "Jumpk3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpo1.png",
+			"type": "image",
+			"name": "Jumpo1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpo3.png",
+			"type": "image",
+			"name": "Jumpo3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpt1.png",
+			"type": "image",
+			"name": "Jumpt1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpt3.png",
+			"type": "image",
+			"name": "Jumpt3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpa3.png",
+			"type": "image",
+			"name": "Jumpa3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpe1.png",
+			"type": "image",
+			"name": "Jumpe1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpe3.png",
+			"type": "image",
+			"name": "Jumpe3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumph3.png",
+			"type": "image",
+			"name": "Jumph3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpi1.png",
+			"type": "image",
+			"name": "Jumpi1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpi3.png",
+			"type": "image",
+			"name": "Jumpi3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpj1.png",
+			"type": "image",
+			"name": "Jumpj1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpj3.png",
+			"type": "image",
+			"name": "Jumpj3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpl1.png",
+			"type": "image",
+			"name": "Jumpl1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpl3.png",
+			"type": "image",
+			"name": "Jumpl3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpm1.png",
+			"type": "image",
+			"name": "Jumpm1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpm3.png",
+			"type": "image",
+			"name": "Jumpm3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpq1.png",
+			"type": "image",
+			"name": "Jumpq1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpq3.png",
+			"type": "image",
+			"name": "Jumpq3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpw1.png",
+			"type": "image",
+			"name": "Jumpw1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpw3.png",
+			"type": "image",
+			"name": "Jumpw3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpz1.png",
+			"type": "image",
+			"name": "Jumpz1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpz3.png",
+			"type": "image",
+			"name": "Jumpz3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Jumpa1.png",
+			"type": "image",
+			"name": "Jumpa1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/red.png",
+			"type": "image",
+			"name": "red_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/green.png",
+			"type": "image",
+			"name": "green_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/headBg.png",
+			"type": "image",
+			"name": "headBg_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_ready.png",
+			"type": "image",
+			"name": "longJump_ready_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_go.png",
+			"type": "image",
+			"name": "longJump_go_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/readyGoTitle.png",
+			"type": "image",
+			"name": "readyGoTitle_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_blackMask.png",
+			"type": "image",
+			"name": "longJump_blackMask_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_winLight.png",
+			"type": "image",
+			"name": "longJump_winLight_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_jump2.mp3",
+			"type": "sound",
+			"name": "longJump_jump2_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_jumpOver1.mp3",
+			"type": "sound",
+			"name": "longJump_jumpOver1_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_jumpOver2.mp3",
+			"type": "sound",
+			"name": "longJump_jumpOver2_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_jumpOver3.mp3",
+			"type": "sound",
+			"name": "longJump_jumpOver3_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_lose.wav",
+			"type": "sound",
+			"name": "longJump_lose_wav"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_powering.mp3",
+			"type": "sound",
+			"name": "longJump_powering_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_powerLimit.mp3",
+			"type": "sound",
+			"name": "longJump_powerLimit_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_sccess.mp3",
+			"type": "sound",
+			"name": "longJump_sccess_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_drop1.mp3",
+			"type": "sound",
+			"name": "longJump_drop1_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_drop2.mp3",
+			"type": "sound",
+			"name": "longJump_drop2_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_drop3.mp3",
+			"type": "sound",
+			"name": "longJump_drop3_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_jump1.mp3",
+			"type": "sound",
+			"name": "longJump_jump1_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/fallintowater.png",
+			"type": "image",
+			"name": "fallintowater_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/fallintowater.json",
+			"type": "json",
+			"name": "fallintowater_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_shadow.png",
+			"type": "image",
+			"name": "longJump_max_shadow_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_t1.png",
+			"type": "image",
+			"name": "longJump_max_t1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_u1.png",
+			"type": "image",
+			"name": "longJump_max_u1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_w1.png",
+			"type": "image",
+			"name": "longJump_max_w1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_y1.png",
+			"type": "image",
+			"name": "longJump_max_y1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_e1.png",
+			"type": "image",
+			"name": "longJump_max_e1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_max_r1.png",
+			"type": "image",
+			"name": "longJump_max_r1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/headBg_red.png",
+			"type": "image",
+			"name": "headBg_red_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_TimeBG.png",
+			"type": "image",
+			"name": "longJump_TimeBG_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/headBg_green.png",
+			"type": "image",
+			"name": "headBg_green_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_number.fnt",
+			"type": "font",
+			"name": "longJump_number_fnt"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_jumplight.png",
+			"type": "image",
+			"name": "longJump_jumplight_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/bj5.png",
+			"type": "image",
+			"name": "bj5_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/bj1.png",
+			"type": "image",
+			"name": "bj1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/bj2.png",
+			"type": "image",
+			"name": "bj2_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/bj3.png",
+			"type": "image",
+			"name": "bj3_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/bj4.png",
+			"type": "image",
+			"name": "bj4_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_BGMusic.mp3",
+			"type": "sound",
+			"name": "longJump_BGMusic_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_jumpLightPower.png",
+			"type": "image",
+			"name": "longJump_jumpLightPower_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/sound/longJump_handclap.mp3",
+			"type": "sound",
+			"name": "longJump_handclap_mp3"
+		},
+		{
+			"url": "assets/games/game_LongJump/longJump_tip.png",
+			"type": "image",
+			"name": "longJump_tip_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/RandomConfig.json",
+			"type": "json",
+			"name": "RandomConfig_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/bo_ske.json",
+			"type": "json",
+			"name": "bo_ske_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/bo_tex.json",
+			"type": "json",
+			"name": "bo_tex_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/bo_tex.png",
+			"type": "image",
+			"name": "bo_tex_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/floatScore_ske.json",
+			"type": "json",
+			"name": "floatScore_ske_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/floatScore_tex.json",
+			"type": "json",
+			"name": "floatScore_tex_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/floatScore_tex.png",
+			"type": "image",
+			"name": "floatScore_tex_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/wa1_ske.json",
+			"type": "json",
+			"name": "wa1_ske_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/wa1_tex.json",
+			"type": "json",
+			"name": "wa1_tex_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/wa1_tex.png",
+			"type": "image",
+			"name": "wa1_tex_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/xuli1.json",
+			"type": "json",
+			"name": "xuli1_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/xuli1.png",
+			"type": "image",
+			"name": "xuli1_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/xuli2.json",
+			"type": "json",
+			"name": "xuli2_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/xuli2.png",
+			"type": "image",
+			"name": "xuli2_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/Fang_1_ske.json",
+			"type": "json",
+			"name": "Fang_1_ske_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/Fang_1_tex.json",
+			"type": "json",
+			"name": "Fang_1_tex_json"
+		},
+		{
+			"url": "assets/games/game_LongJump/Fang_1_tex.png",
+			"type": "image",
+			"name": "Fang_1_tex_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/winGreen.png",
+			"type": "image",
+			"name": "winGreen_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/winRed.png",
+			"type": "image",
+			"name": "winRed_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/winTag.png",
+			"type": "image",
+			"name": "winTag_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/loseGreen.png",
+			"type": "image",
+			"name": "loseGreen_png"
+		},
+		{
+			"url": "assets/games/game_LongJump/loseRed.png",
+			"type": "image",
+			"name": "loseRed_png"
+		},
+		{
+			"url": "assets/sound/countDown.mp3",
+			"type": "sound",
+			"name": "countDown_mp3"
+		}
+	]
+}

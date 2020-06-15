@@ -1,0 +1,74 @@
+{
+  "native": {
+    "path_ignore": []
+  },
+  "engineVersion": "5.2.29",
+  "compilerVersion": "5.2.29",
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "template": {},
+  "eui": {
+    "exmlRoot": [
+      "resource/skins"
+    ],
+    "themes": [
+      "resource/default.thm.json"
+    ],
+    "exmlPublishPolicy": "content"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "socket"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "dragonBones"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "core",
+      "path": "core"
+    },
+    {
+      "name": "net",
+      "path": "net"
+    },
+    {
+      "name": "common",
+      "path": "common"
+    },
+    {
+      "name": "extensionrec",
+      "path": "librarys/extensionrec"
+    },
+    {
+      "name": "seedrandom",
+      "path": "librarys/seedrandom"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "tiaoyitiao",
+      "packagename": "com.companyname"
+    }
+  }
+}

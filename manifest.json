@@ -1,0 +1,40 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/promise/promise.js",
+		"core/bin/core.js",
+		"net/bin/net.js",
+		"common/bin/common.js",
+		"librarys/extensionrec/extensionrec.js",
+		"librarys/seedrandom/seedrandom.js"
+	],
+	"game": [
+		"bin-debug/module/gameCenter/GameChangeMatchView.js",
+		"bin-debug/Common.js",
+		"bin-debug/Main.js",
+		"bin-debug/md5.js",
+		"bin-debug/RankList.js",
+		"bin-debug/RankListS.js",
+		"bin-debug/module/AdaptiveManager.js",
+		"bin-debug/module/Game.js",
+		"bin-debug/module/NetWorkDelayTest.js",
+		"bin-debug/module/Statistics.js",
+		"bin-debug/Main_G360.js",
+		"bin-debug/module/gameCenter/GameGiveUpView.js",
+		"bin-debug/module/gameCenter/GamePopView.js",
+		"bin-debug/module/gameCenter/GameResultView.js",
+		"bin-debug/module/gameCenter/GameSureLeaveView.js",
+		"bin-debug/module/gameCenter/Index.js",
+		"bin-debug/module/loading/LoadingUI_GameSLL.js",
+		"bin-debug/platforms/G360Platform.js",
+		"bin-debug/platforms/IPlatform.js",
+		"bin-debug/platforms/Platform.js"
+	]
+}
