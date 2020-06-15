@@ -57,18 +57,8 @@
       "path": "common"
     },
     {
-      "name": "extensionrec",
-      "path": "librarys/extensionrec"
-    },
-    {
       "name": "seedrandom",
-      "path": "librarys/seedrandom"
+      "path": "libs/seedrandom"
     }
-  ],
-  "targets": {
-    "android": {
-      "appname": "tiaoyitiao",
-      "packagename": "com.companyname"
-    }
-  }
+  ]
 }

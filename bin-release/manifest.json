@@ -1,36 +1,7 @@
 {
-	"initial": [
-		"js/egret.min.js",
-		"js/egret.web.min.js",
-		"js/game.min.js",
-		"js/res.min.js",
-		"js/tween.min.js",
-		"js/socket.min.js",
-		"js/eui.min.js",
-		"js/dragonBones.min.js",
-		"js/promise.min.js"
-	],
+	"initial": [],
 	"game": [
-		"js/gulpfile.js",
-		"js/karma.conf.js",
-		"js/GameAnalytics.debug.js",
-		"js/GameAnalytics.js",
-		"js/GameAnalytics.min.js",
-		"js/GameAnalytics.node.js",
-		"js/testEvents.js",
-		"js/testGAState.js",
-		"js/testUtilities.js",
-		"js/testValidator.js",
-		"js/enc-base64-min.js",
-		"js/enc-base64.js",
-		"js/hmac-sha256-min.js",
-		"js/hmac-sha256.js",
 		"js/default.thm.js",
-		"js/core.min.js",
-		"js/net.min.js",
-		"js/common.min.js",
-		"js/extensionrec.min.js",
-		"js/seedrandom.min.js",
 		"js/main.min.js"
 	]
 }

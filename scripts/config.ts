@@ -29,10 +29,24 @@ const config: ResourceManagerConfig = {
                 outputDir,
                 commands: [
                     new CustomPlugin(),
-                    new ExmlPlugin('commonjs'),
+                    new ExmlPlugin('commonjs2'),
                     new CompilePlugin({ libraryType: "release" }),
                     new UglifyPlugin([{
-                        sources: ["main.js"],
+                        sources: [
+                            "libs/modules/egret/egret.min.js",
+                            "libs/modules/egret/egret.web.min.js",
+                            "libs/modules/res/res.min.js",
+                            "libs/modules/eui/eui.min.js",
+                            "libs/modules/game/game.min.js",
+                            "libs/modules/tween/tween.min.js",
+                            "libs/modules/socket/socket.min.js",
+                            "libs/modules/promise/promise.min.js",
+                            "libs/modules/dragonBones/dragonBones.min.js",
+                            "libs/seedrandom/seedrandom.min.js",
+                            "common/bin/common.min.js",
+                            "net/bin/net.min.js",
+                            "core/bin/core.min.js",
+                            "main.js"],
                         target: "main.min.js"
                     }]),
                     new ManifestPlugin({ output: 'manifest.json' }),

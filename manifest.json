@@ -12,8 +12,7 @@
 		"core/bin/core.js",
 		"net/bin/net.js",
 		"common/bin/common.js",
-		"librarys/extensionrec/extensionrec.js",
-		"librarys/seedrandom/seedrandom.js"
+		"libs/seedrandom/seedrandom.js"
 	],
 	"game": [
 		"bin-debug/module/gameCenter/GameGiveUpView.js",
