@@ -88,7 +88,7 @@ class Main extends egret.DisplayObjectContainer {
     //Main初始化
     private initMain(): void {
         var main: egret.DisplayObjectContainer;
-        main = new Main_G360();
+        main = new GameMain();
         this.stage.addChild(main);
         this.stage.removeChild(this);
     }

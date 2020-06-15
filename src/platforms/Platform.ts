@@ -11,7 +11,7 @@ class Platform {
         App.Language = LanguageType.Ch;
         switch (Platform.curPlatformID) {
             case Platform.G360:
-                Platform.curPlatform = new G360Platform();
+                Platform.curPlatform = new PlatformJump();
                     break;
         }
         App.CurrPlatformUid = platformID.toString();

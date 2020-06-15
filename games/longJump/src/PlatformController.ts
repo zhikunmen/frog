@@ -15,7 +15,7 @@ namespace GameLongJump {
         }
         init() {
             let newPlatform: Platform = ObjectPool.pop(Platform, "max_qPlatform");
-            newPlatform.init(PlatformType.max_y, 0, false);
+            newPlatform.init(PlatformType.max_e, 0, false);
             newPlatform.setXY(150, 700)
             GameLongJumpView.instance.gameLayer.addChildAt(newPlatform, 0);
 

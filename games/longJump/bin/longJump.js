@@ -1104,7 +1104,7 @@ var GameLongJump;
         }
         PlatformController.prototype.init = function () {
             var newPlatform = ObjectPool.pop(GameLongJump.Platform, "max_qPlatform");
-            newPlatform.init(GameLongJump.PlatformType.max_y, 0, false);
+            newPlatform.init(GameLongJump.PlatformType.max_e, 0, false);
             newPlatform.setXY(150, 700);
             GameLongJumpView.instance.gameLayer.addChildAt(newPlatform, 0);
             this.platformList[newPlatform.UID] = newPlatform;

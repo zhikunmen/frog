@@ -114,8 +114,6 @@ var LoadingUI_GameSLL = (function (_super) {
         //解析龙骨动画
         var dbConfig = RES.getRes("dbAssetConfig_json");
         AssetManager.loadDBAnimation(dbConfig.db[App.CurrGameId.toString()]);
-        //加载完成统计log
-        Statistics.loadingEndOne();
         //发送资源加载完成
         ProxySocket.sendLoadProgress(App.CurrRoomId, 100);
         //等待对手进入
@@ -160,9 +158,6 @@ var LoadingUI_GameSLL = (function (_super) {
     };
     //游戏结果返回
     LoadingUI_GameSLL.prototype.onGameResultS2C = function (data) {
-        //统计
-        Statistics.gameEnd();
-        Statistics.reportResult(data.winUserId);
         //弹出胜负结果
         if (DataCenter.instance.room) {
             this.initGame();

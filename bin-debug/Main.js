@@ -92,7 +92,7 @@ var Main = (function (_super) {
     //Main初始化
     Main.prototype.initMain = function () {
         var main;
-        main = new Main_G360();
+        main = new GameMain();
         this.stage.addChild(main);
         this.stage.removeChild(this);
     };

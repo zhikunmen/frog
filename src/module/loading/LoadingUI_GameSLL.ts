@@ -56,9 +56,6 @@ class LoadingUI_GameSLL extends EuiComponent {
         if (!this.loadProgressImg.source && RES.getRes("LD_progress_png")) {
             this.loadProgressImg.source = "LD_progress_png";
         }
-
-
-
     }
 
     public setBaseProgress(current, total): void {
@@ -133,8 +130,6 @@ class LoadingUI_GameSLL extends EuiComponent {
         //解析龙骨动画
         let dbConfig = RES.getRes("dbAssetConfig_json");
         AssetManager.loadDBAnimation(dbConfig.db[App.CurrGameId.toString()]);
-        //加载完成统计log
-        Statistics.loadingEndOne();
         //发送资源加载完成
         ProxySocket.sendLoadProgress(App.CurrRoomId, 100);
         //等待对手进入
@@ -184,10 +179,6 @@ class LoadingUI_GameSLL extends EuiComponent {
 
     //游戏结果返回
     private onGameResultS2C(data: game_result_notice_s2c): void {
-        //统计
-        Statistics.gameEnd();
-        Statistics.reportResult(data.winUserId);
-
         //弹出胜负结果
         if (DataCenter.instance.room) {
             this.initGame();

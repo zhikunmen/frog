@@ -177,9 +177,6 @@ var Game = (function (_super) {
     Game.prototype.onReceiveGameResultS2C = function (data) {
         var time = egret.getTimer() - this.sendResultStartTime;
         App.MessageCenter.dispatch(EventMessage.ReceiveGameResultS2C, data);
-        //统计
-        Statistics.gameEnd();
-        Statistics.reportResult(data.winUserId);
     };
     //收到获取题目列表
     Game.prototype.onGetQuestionsC2S = function (callBack) {

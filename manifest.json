@@ -16,25 +16,23 @@
 		"librarys/seedrandom/seedrandom.js"
 	],
 	"game": [
-		"bin-debug/module/gameCenter/GameChangeMatchView.js",
+		"bin-debug/module/gameCenter/GameGiveUpView.js",
 		"bin-debug/Common.js",
 		"bin-debug/Main.js",
 		"bin-debug/md5.js",
 		"bin-debug/RankList.js",
 		"bin-debug/RankListS.js",
-		"bin-debug/module/AdaptiveManager.js",
 		"bin-debug/module/Game.js",
 		"bin-debug/module/NetWorkDelayTest.js",
-		"bin-debug/module/Statistics.js",
-		"bin-debug/Main_G360.js",
-		"bin-debug/module/gameCenter/GameGiveUpView.js",
+		"bin-debug/module/gameCenter/GameChangeMatchView.js",
+		"bin-debug/GameMain.js",
 		"bin-debug/module/gameCenter/GamePopView.js",
 		"bin-debug/module/gameCenter/GameResultView.js",
 		"bin-debug/module/gameCenter/GameSureLeaveView.js",
 		"bin-debug/module/gameCenter/Index.js",
 		"bin-debug/module/loading/LoadingUI_GameSLL.js",
-		"bin-debug/platforms/G360Platform.js",
 		"bin-debug/platforms/IPlatform.js",
-		"bin-debug/platforms/Platform.js"
+		"bin-debug/platforms/Platform.js",
+		"bin-debug/platforms/PlatformJump.js"
 	]
 }
