@@ -8,7 +8,6 @@ var __extends = this && this.__extends || function __extends(t, e) {
 for (var i in e) e.hasOwnProperty(i) && (t[i] = e[i]);
 r.prototype = e.prototype, t.prototype = new r();
 };
-// TypeScript file
 var GameSureLeaveView = (function (_super) {
     __extends(GameSureLeaveView, _super);
     function GameSureLeaveView() {

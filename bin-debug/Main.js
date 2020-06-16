@@ -84,9 +84,7 @@ var Main = (function (_super) {
     };
     //平台初始化
     Main.prototype.initPlatform = function () {
-        // let platformType = Platform.XiaoMi;
-        var platformType = Platform.G360;
-        // let platformType = Platform.Local;
+        var platformType = Platform.Jump;
         Platform.initPlatform(platformType);
     };
     //Main初始化

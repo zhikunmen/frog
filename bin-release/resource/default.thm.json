@@ -2,11 +2,6 @@
 	"skins": {},
 	"autoGenerateExmlsList": true,
 	"exmls": [
-		"resource/assets/games/game_AnimalChess/skin/ButtonQipao.exml",
-		"resource/assets/games/game_AnimalChess/skin/GameAnimalChessGreet.exml",
-		"resource/assets/games/game_AnimalChess/skin/GameAnimalChessReceiveDrawn.exml",
-		"resource/assets/games/game_AnimalChess/skin/GameExpressSkin.exml",
-		"resource/assets/games/game_AnimalChess/skin/ItemExpressTip.exml",
 		"resource/skins/gameCenter/GameChangeMatchSkin.exml",
 		"resource/skins/gameCenter/GameExplainSkin.exml",
 		"resource/skins/gameCenter/GameGiveUp.exml",

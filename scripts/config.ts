@@ -43,9 +43,10 @@ const config: ResourceManagerConfig = {
                             "libs/modules/promise/promise.min.js",
                             "libs/modules/dragonBones/dragonBones.min.js",
                             "libs/seedrandom/seedrandom.min.js",
+                            "core/bin/core.min.js",
                             "common/bin/common.min.js",
                             "net/bin/net.min.js",
-                            "core/bin/core.min.js",
+                            "resource/default.thm.js",
                             "main.js"],
                         target: "main.min.js"
                     }]),

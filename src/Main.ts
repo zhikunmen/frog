@@ -79,9 +79,7 @@ class Main extends egret.DisplayObjectContainer {
 
     //平台初始化
     private initPlatform(): void {
-        // let platformType = Platform.XiaoMi;
-        let platformType = Platform.G360;
-        // let platformType = Platform.Local;
+        let platformType = Platform.Jump;
         Platform.initPlatform(platformType);
     }
 

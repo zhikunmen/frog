@@ -8,14 +8,14 @@ var Platform = (function () {
         Platform.curPlatformID = platformID;
         App.Language = LanguageType.Ch;
         switch (Platform.curPlatformID) {
-            case Platform.G360:
+            case Platform.Jump:
                 Platform.curPlatform = new PlatformJump();
                 break;
         }
         App.CurrPlatformUid = platformID.toString();
     };
-    Platform.G360 = 16;
-    Platform.curPlatformID = Platform.G360;
+    Platform.Jump = 16;
+    Platform.curPlatformID = Platform.Jump;
     return Platform;
 }());
 __reflect(Platform.prototype, "Platform");

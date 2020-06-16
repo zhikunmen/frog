@@ -1,7 +1,6 @@
 {
 	"initial": [],
 	"game": [
-		"js/default.thm.js",
 		"js/main.min.js"
 	]
 }

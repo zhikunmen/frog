@@ -55,7 +55,7 @@ var GameMain = (function (_super) {
         this.euiLayer.addChild(this.loadingView);
         //初始化Resource资源加载库
         var gameResPath = "resource/";
-        App.ResourceUtils.addConfig(gameResPath + "default_wanba.res.json", gameResPath);
+        App.ResourceUtils.addConfig(gameResPath + "default.res.json", gameResPath);
         App.ResourceUtils.addConfig(gameResPath + "gameLongJump.res.json", gameResPath);
         App.ResourceUtils.loadConfig(this.onConfigComplete, this);
     };

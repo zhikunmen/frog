@@ -1,4 +1,3 @@
-// TypeScript file
 class GameSureLeaveView extends StateEui {
     public btn_cancel: eui.Button;
     public btn_sure: eui.Button;

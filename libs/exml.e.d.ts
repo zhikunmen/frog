@@ -1,13 +1,3 @@
-declare class ButtonQipao extends eui.Skin{
-}
-declare class GameAnimalChessGreet extends eui.Skin{
-}
-declare class GameAnimalChessReceiveDrawn extends eui.Skin{
-}
-declare class GameExpressSkin extends eui.Skin{
-}
-declare class ItemExpressTipskin extends eui.Skin{
-}
 declare class GameChangeMatchSkin extends eui.Skin{
 }
 declare class GameExplainSkin extends eui.Skin{

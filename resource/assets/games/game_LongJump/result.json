@@ -1,0 +1,7 @@
+{"file":"result.png","frames":{
+"longJump_winLight_png":{"x":1154,"y":0,"w":373,"h":375,"offX":1,"offY":1,"sourceW":374,"sourceH":376},
+"loseGreen_png":{"x":640,"y":0,"w":514,"h":422,"offX":64,"offY":58,"sourceW":640,"sourceH":480},
+"loseRed_png":{"x":0,"y":0,"w":640,"h":480,"offX":0,"offY":0,"sourceW":640,"sourceH":480},
+"winGreen_png":{"x":0,"y":480,"w":599,"h":402,"offX":18,"offY":39,"sourceW":640,"sourceH":480},
+"winRed_png":{"x":599,"y":480,"w":599,"h":402,"offX":19,"offY":38,"sourceW":640,"sourceH":480},
+"winTag_png":{"x":640,"y":422,"w":67,"h":32,"offX":0,"offY":0,"sourceW":67,"sourceH":32}}}

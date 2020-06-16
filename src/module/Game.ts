@@ -50,8 +50,6 @@ class Game extends egret.DisplayObjectContainer {
         this.initView();
         this.initMessage();
         this.isInit = true;
-
-        new NetWorkDelayTest();
     }
 
     private initMessage(): void {
@@ -92,7 +90,6 @@ class Game extends egret.DisplayObjectContainer {
         this.stateManager.registerState("gamePopup", new GamePopView()); //提示框
         this.stateManager.registerState("GameSureLeave", new GameSureLeaveView()); //游戏确认离开
         this.stateManager.registerState("GameGiveUp", new GameGiveUpView()); //认输面板
-        this.stateManager.registerState("GameExpress", new GameExpressTip()); //游戏内的表情发送
     }
 
     private currGameId: number = 0;
